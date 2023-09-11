@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '../node_modules/react-toastify/dist/ReactToastify.min.css';
+
+.required:before {
+    content:" *";
+    color: red;
+    margin-right: 0.5em;
+}
+
+.wysiwyg-wrapper-class {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+.wysiwyg-editor-class {
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+.wysiwyg-toolbar-class {
+    border: 1px solid #ccc;
+}
+footer.footer a.link {
+    color: #fff;
+}
+  
